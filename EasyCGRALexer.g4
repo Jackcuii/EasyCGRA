@@ -22,7 +22,8 @@ FMUL     : 'FMUL';
 FDIV     : 'FDIV';
 FMAC     : 'FMAC';
 BEQ      : 'BEQ'; // ..
-
+MOV     : 'MOV';
+MAC_CONST_ADD : 'MAC_CONST_ADD';
 // memory
 
 LOAD     : 'LOAD';

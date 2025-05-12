@@ -87,6 +87,8 @@ opCode
     | FMUL
     | FDIV
     | FMAC
+    | MOV
+    | MAC_CONST_ADD
     ;
 
 

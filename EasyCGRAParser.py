@@ -10,7 +10,7 @@ else:
 
 def serializedATN():
     return [
-        4,1,55,146,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,57,146,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,1,0,5,0,26,8,0,10,
         0,12,0,29,9,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,2,1,2,1,2,1,
         2,3,2,44,8,2,1,3,5,3,47,8,3,10,3,12,3,50,9,3,1,4,1,4,5,4,54,8,4,
@@ -21,41 +21,41 @@ def serializedATN():
         8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,3,8,129,8,
         8,1,9,1,9,1,9,5,9,134,8,9,10,9,12,9,137,9,9,1,10,1,10,1,10,3,10,
         142,8,10,1,11,1,11,1,11,0,0,12,0,2,4,6,8,10,12,14,16,18,20,22,0,
-        1,1,0,1,19,153,0,27,1,0,0,0,2,32,1,0,0,0,4,43,1,0,0,0,6,48,1,0,0,
-        0,8,61,1,0,0,0,10,63,1,0,0,0,12,80,1,0,0,0,14,82,1,0,0,0,16,128,
-        1,0,0,0,18,130,1,0,0,0,20,141,1,0,0,0,22,143,1,0,0,0,24,26,3,2,1,
-        0,25,24,1,0,0,0,26,29,1,0,0,0,27,25,1,0,0,0,27,28,1,0,0,0,28,30,
-        1,0,0,0,29,27,1,0,0,0,30,31,5,0,0,1,31,1,1,0,0,0,32,33,3,4,2,0,33,
-        34,5,42,0,0,34,35,3,6,3,0,35,36,5,43,0,0,36,3,1,0,0,0,37,38,5,23,
-        0,0,38,44,5,24,0,0,39,40,5,23,0,0,40,41,3,14,7,0,41,42,5,24,0,0,
-        42,44,1,0,0,0,43,37,1,0,0,0,43,39,1,0,0,0,44,5,1,0,0,0,45,47,3,8,
-        4,0,46,45,1,0,0,0,47,50,1,0,0,0,48,46,1,0,0,0,48,49,1,0,0,0,49,7,
-        1,0,0,0,50,48,1,0,0,0,51,55,5,42,0,0,52,54,3,12,6,0,53,52,1,0,0,
-        0,54,57,1,0,0,0,55,53,1,0,0,0,55,56,1,0,0,0,56,58,1,0,0,0,57,55,
-        1,0,0,0,58,62,5,43,0,0,59,62,3,12,6,0,60,62,3,10,5,0,61,51,1,0,0,
-        0,61,59,1,0,0,0,61,60,1,0,0,0,62,9,1,0,0,0,63,64,5,55,0,0,64,65,
-        5,49,0,0,65,11,1,0,0,0,66,67,3,22,11,0,67,68,5,47,0,0,68,69,3,14,
-        7,0,69,70,5,25,0,0,70,71,3,14,7,0,71,81,1,0,0,0,72,73,3,14,7,0,73,
-        74,5,25,0,0,74,75,3,14,7,0,75,81,1,0,0,0,76,77,3,22,11,0,77,78,5,
-        47,0,0,78,79,3,14,7,0,79,81,1,0,0,0,80,66,1,0,0,0,80,72,1,0,0,0,
-        80,76,1,0,0,0,81,13,1,0,0,0,82,87,3,16,8,0,83,84,5,47,0,0,84,86,
-        3,16,8,0,85,83,1,0,0,0,86,89,1,0,0,0,87,85,1,0,0,0,87,88,1,0,0,0,
-        88,15,1,0,0,0,89,87,1,0,0,0,90,91,3,20,10,0,91,92,5,44,0,0,92,93,
-        3,18,9,0,93,94,5,45,0,0,94,129,1,0,0,0,95,96,5,27,0,0,96,97,5,44,
-        0,0,97,98,5,29,0,0,98,129,5,45,0,0,99,100,5,27,0,0,100,101,5,44,
-        0,0,101,102,5,31,0,0,102,129,5,45,0,0,103,104,5,27,0,0,104,105,5,
-        44,0,0,105,106,5,30,0,0,106,129,5,45,0,0,107,108,5,27,0,0,108,109,
-        5,44,0,0,109,110,5,32,0,0,110,129,5,45,0,0,111,112,5,27,0,0,112,
-        113,5,44,0,0,113,114,5,33,0,0,114,129,5,45,0,0,115,116,3,20,10,0,
-        116,117,5,28,0,0,117,118,5,44,0,0,118,119,3,18,9,0,119,120,5,45,
-        0,0,120,129,1,0,0,0,121,122,3,20,10,0,122,123,5,28,0,0,123,124,5,
-        44,0,0,124,125,5,30,0,0,125,126,5,45,0,0,126,129,1,0,0,0,127,129,
-        3,10,5,0,128,90,1,0,0,0,128,95,1,0,0,0,128,99,1,0,0,0,128,103,1,
-        0,0,0,128,107,1,0,0,0,128,111,1,0,0,0,128,115,1,0,0,0,128,121,1,
-        0,0,0,128,127,1,0,0,0,129,17,1,0,0,0,130,135,5,55,0,0,131,132,5,
-        47,0,0,132,134,5,55,0,0,133,131,1,0,0,0,134,137,1,0,0,0,135,133,
+        1,2,0,1,19,21,22,153,0,27,1,0,0,0,2,32,1,0,0,0,4,43,1,0,0,0,6,48,
+        1,0,0,0,8,61,1,0,0,0,10,63,1,0,0,0,12,80,1,0,0,0,14,82,1,0,0,0,16,
+        128,1,0,0,0,18,130,1,0,0,0,20,141,1,0,0,0,22,143,1,0,0,0,24,26,3,
+        2,1,0,25,24,1,0,0,0,26,29,1,0,0,0,27,25,1,0,0,0,27,28,1,0,0,0,28,
+        30,1,0,0,0,29,27,1,0,0,0,30,31,5,0,0,1,31,1,1,0,0,0,32,33,3,4,2,
+        0,33,34,5,44,0,0,34,35,3,6,3,0,35,36,5,45,0,0,36,3,1,0,0,0,37,38,
+        5,25,0,0,38,44,5,26,0,0,39,40,5,25,0,0,40,41,3,14,7,0,41,42,5,26,
+        0,0,42,44,1,0,0,0,43,37,1,0,0,0,43,39,1,0,0,0,44,5,1,0,0,0,45,47,
+        3,8,4,0,46,45,1,0,0,0,47,50,1,0,0,0,48,46,1,0,0,0,48,49,1,0,0,0,
+        49,7,1,0,0,0,50,48,1,0,0,0,51,55,5,44,0,0,52,54,3,12,6,0,53,52,1,
+        0,0,0,54,57,1,0,0,0,55,53,1,0,0,0,55,56,1,0,0,0,56,58,1,0,0,0,57,
+        55,1,0,0,0,58,62,5,45,0,0,59,62,3,12,6,0,60,62,3,10,5,0,61,51,1,
+        0,0,0,61,59,1,0,0,0,61,60,1,0,0,0,62,9,1,0,0,0,63,64,5,57,0,0,64,
+        65,5,51,0,0,65,11,1,0,0,0,66,67,3,22,11,0,67,68,5,49,0,0,68,69,3,
+        14,7,0,69,70,5,27,0,0,70,71,3,14,7,0,71,81,1,0,0,0,72,73,3,14,7,
+        0,73,74,5,27,0,0,74,75,3,14,7,0,75,81,1,0,0,0,76,77,3,22,11,0,77,
+        78,5,49,0,0,78,79,3,14,7,0,79,81,1,0,0,0,80,66,1,0,0,0,80,72,1,0,
+        0,0,80,76,1,0,0,0,81,13,1,0,0,0,82,87,3,16,8,0,83,84,5,49,0,0,84,
+        86,3,16,8,0,85,83,1,0,0,0,86,89,1,0,0,0,87,85,1,0,0,0,87,88,1,0,
+        0,0,88,15,1,0,0,0,89,87,1,0,0,0,90,91,3,20,10,0,91,92,5,46,0,0,92,
+        93,3,18,9,0,93,94,5,47,0,0,94,129,1,0,0,0,95,96,5,29,0,0,96,97,5,
+        46,0,0,97,98,5,31,0,0,98,129,5,47,0,0,99,100,5,29,0,0,100,101,5,
+        46,0,0,101,102,5,33,0,0,102,129,5,47,0,0,103,104,5,29,0,0,104,105,
+        5,46,0,0,105,106,5,32,0,0,106,129,5,47,0,0,107,108,5,29,0,0,108,
+        109,5,46,0,0,109,110,5,34,0,0,110,129,5,47,0,0,111,112,5,29,0,0,
+        112,113,5,46,0,0,113,114,5,35,0,0,114,129,5,47,0,0,115,116,3,20,
+        10,0,116,117,5,30,0,0,117,118,5,46,0,0,118,119,3,18,9,0,119,120,
+        5,47,0,0,120,129,1,0,0,0,121,122,3,20,10,0,122,123,5,30,0,0,123,
+        124,5,46,0,0,124,125,5,32,0,0,125,126,5,47,0,0,126,129,1,0,0,0,127,
+        129,3,10,5,0,128,90,1,0,0,0,128,95,1,0,0,0,128,99,1,0,0,0,128,103,
+        1,0,0,0,128,107,1,0,0,0,128,111,1,0,0,0,128,115,1,0,0,0,128,121,
+        1,0,0,0,128,127,1,0,0,0,129,17,1,0,0,0,130,135,5,57,0,0,131,132,
+        5,49,0,0,132,134,5,57,0,0,133,131,1,0,0,0,134,137,1,0,0,0,135,133,
         1,0,0,0,135,136,1,0,0,0,136,19,1,0,0,0,137,135,1,0,0,0,138,142,5,
-        50,0,0,139,142,5,51,0,0,140,142,1,0,0,0,141,138,1,0,0,0,141,139,
+        52,0,0,139,142,5,53,0,0,140,142,1,0,0,0,141,138,1,0,0,0,141,139,
         1,0,0,0,141,140,1,0,0,0,142,21,1,0,0,0,143,144,7,0,0,0,144,23,1,
         0,0,0,10,27,43,48,55,61,80,87,128,135,141
     ]
@@ -73,20 +73,20 @@ class EasyCGRAParser ( Parser ):
     literalNames = [ "<INVALID>", "'ADD'", "'ADDI'", "'SUB'", "'SUBI'", 
                      "'MUL'", "'DIV'", "'MAC'", "'INC'", "'LLS'", "'LRS'", 
                      "'OR'", "'AND'", "'XOR'", "'NOT'", "'FADD'", "'FSUB'", 
-                     "'FMUL'", "'FDIV'", "'FMAC'", "'BEQ'", "'LOAD'", "'STORE'", 
-                     "'Entry'", "'=>'", "'->'", "'\\n'", "'IMM'", "'MEM'", 
+                     "'FMUL'", "'FDIV'", "'FMAC'", "'BEQ'", "'MOV'", "'MAC_CONST_ADD'", 
+                     "'LOAD'", "'STORE'", "'Entry'", "'=>'", "'->'", "'\\n'", 
+                     "'IMM'", "'MEM'", "<INVALID>", "<INVALID>", "<INVALID>", 
                      "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                     "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                     "<INVALID>", "<INVALID>", "'null'", "'('", "')'", "'{'", 
-                     "'}'", "'['", "']'", "';'", "','", "'.'", "':'", "'!'", 
-                     "'^'" ]
+                     "<INVALID>", "<INVALID>", "<INVALID>", "'null'", "'('", 
+                     "')'", "'{'", "'}'", "'['", "']'", "';'", "','", "'.'", 
+                     "':'", "'!'", "'^'" ]
 
     symbolicNames = [ "<INVALID>", "ADD", "ADDI", "SUB", "SUBI", "MUL", 
                       "DIV", "MAC", "INC", "LLS", "LRS", "OR", "AND", "XOR", 
                       "NOT", "FADD", "FSUB", "FMUL", "FDIV", "FMAC", "BEQ", 
-                      "LOAD", "STORE", "ENTRY", "ENTRY_ARROW", "RIGHT_ARROW", 
-                      "N", "IMM", "MEM", "DECIMAL_LITERAL", "HEX_LITERAL", 
-                      "OCT_LITERAL", "BINARY_LITERAL", "FLOAT_LITERAL", 
+                      "MOV", "MAC_CONST_ADD", "LOAD", "STORE", "ENTRY", 
+                      "ENTRY_ARROW", "RIGHT_ARROW", "N", "IMM", "MEM", "DECIMAL_LITERAL", 
+                      "HEX_LITERAL", "OCT_LITERAL", "BINARY_LITERAL", "FLOAT_LITERAL", 
                       "HEX_FLOAT_LITERAL", "BOOL_LITERAL", "CHAR_LITERAL", 
                       "STRING_LITERAL", "TEXT_BLOCK", "NULL_LITERAL", "LPAREN", 
                       "RPAREN", "LBRACE", "RBRACE", "LBRACK", "RBRACK", 
@@ -131,41 +131,43 @@ class EasyCGRAParser ( Parser ):
     FDIV=18
     FMAC=19
     BEQ=20
-    LOAD=21
-    STORE=22
-    ENTRY=23
-    ENTRY_ARROW=24
-    RIGHT_ARROW=25
-    N=26
-    IMM=27
-    MEM=28
-    DECIMAL_LITERAL=29
-    HEX_LITERAL=30
-    OCT_LITERAL=31
-    BINARY_LITERAL=32
-    FLOAT_LITERAL=33
-    HEX_FLOAT_LITERAL=34
-    BOOL_LITERAL=35
-    CHAR_LITERAL=36
-    STRING_LITERAL=37
-    TEXT_BLOCK=38
-    NULL_LITERAL=39
-    LPAREN=40
-    RPAREN=41
-    LBRACE=42
-    RBRACE=43
-    LBRACK=44
-    RBRACK=45
-    SEMI=46
-    COMMA=47
-    DOT=48
-    COLON=49
-    AND_PRED=50
-    OR_PRED=51
-    WS=52
-    COMMENT=53
-    LINE_COMMENT=54
-    IDENTIFIER=55
+    MOV=21
+    MAC_CONST_ADD=22
+    LOAD=23
+    STORE=24
+    ENTRY=25
+    ENTRY_ARROW=26
+    RIGHT_ARROW=27
+    N=28
+    IMM=29
+    MEM=30
+    DECIMAL_LITERAL=31
+    HEX_LITERAL=32
+    OCT_LITERAL=33
+    BINARY_LITERAL=34
+    FLOAT_LITERAL=35
+    HEX_FLOAT_LITERAL=36
+    BOOL_LITERAL=37
+    CHAR_LITERAL=38
+    STRING_LITERAL=39
+    TEXT_BLOCK=40
+    NULL_LITERAL=41
+    LPAREN=42
+    RPAREN=43
+    LBRACE=44
+    RBRACE=45
+    LBRACK=46
+    RBRACK=47
+    SEMI=48
+    COMMA=49
+    DOT=50
+    COLON=51
+    AND_PRED=52
+    OR_PRED=53
+    WS=54
+    COMMENT=55
+    LINE_COMMENT=56
+    IDENTIFIER=57
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -204,12 +206,6 @@ class EasyCGRAParser ( Parser ):
             if hasattr( listener, "exitCompilationUnit" ):
                 listener.exitCompilationUnit(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitCompilationUnit" ):
-                return visitor.visitCompilationUnit(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
@@ -223,7 +219,7 @@ class EasyCGRAParser ( Parser ):
             self.state = 27
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==23:
+            while _la==25:
                 self.state = 24
                 self.entryBlock()
                 self.state = 29
@@ -272,12 +268,6 @@ class EasyCGRAParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitEntryBlock" ):
                 listener.exitEntryBlock(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitEntryBlock" ):
-                return visitor.visitEntryBlock(self)
-            else:
-                return visitor.visitChildren(self)
 
 
 
@@ -332,12 +322,6 @@ class EasyCGRAParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitEntryHead" ):
                 listener.exitEntryHead(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitEntryHead" ):
-                return visitor.visitEntryHead(self)
-            else:
-                return visitor.visitChildren(self)
 
 
 
@@ -403,12 +387,6 @@ class EasyCGRAParser ( Parser ):
             if hasattr( listener, "exitInstList" ):
                 listener.exitInstList(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitInstList" ):
-                return visitor.visitInstList(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
@@ -422,7 +400,7 @@ class EasyCGRAParser ( Parser ):
             self.state = 48
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 39428487375749118) != 0):
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 157713949506142206) != 0):
                 self.state = 45
                 self.inst()
                 self.state = 50
@@ -473,12 +451,6 @@ class EasyCGRAParser ( Parser ):
             if hasattr( listener, "exitInst" ):
                 listener.exitInst(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitInst" ):
-                return visitor.visitInst(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
@@ -498,7 +470,7 @@ class EasyCGRAParser ( Parser ):
                 self.state = 55
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while (((_la) & ~0x3f) == 0 and ((1 << _la) & 39424089329238014) != 0):
+                while (((_la) & ~0x3f) == 0 and ((1 << _la) & 157696357320097790) != 0):
                     self.state = 52
                     self.normalInst()
                     self.state = 57
@@ -554,12 +526,6 @@ class EasyCGRAParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitLabel" ):
                 listener.exitLabel(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitLabel" ):
-                return visitor.visitLabel(self)
-            else:
-                return visitor.visitChildren(self)
 
 
 
@@ -617,12 +583,6 @@ class EasyCGRAParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitNormalInst" ):
                 listener.exitNormalInst(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitNormalInst" ):
-                return visitor.visitNormalInst(self)
-            else:
-                return visitor.visitChildren(self)
 
 
 
@@ -710,12 +670,6 @@ class EasyCGRAParser ( Parser ):
             if hasattr( listener, "exitOperandList" ):
                 listener.exitOperandList(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitOperandList" ):
-                return visitor.visitOperandList(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
@@ -731,7 +685,7 @@ class EasyCGRAParser ( Parser ):
             self.state = 87
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==47:
+            while _la==49:
                 self.state = 83
                 self.match(EasyCGRAParser.COMMA)
                 self.state = 84
@@ -805,12 +759,6 @@ class EasyCGRAParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitOperand" ):
                 listener.exitOperand(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitOperand" ):
-                return visitor.visitOperand(self)
-            else:
-                return visitor.visitChildren(self)
 
 
 
@@ -969,12 +917,6 @@ class EasyCGRAParser ( Parser ):
             if hasattr( listener, "exitIdList" ):
                 listener.exitIdList(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitIdList" ):
-                return visitor.visitIdList(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
@@ -990,7 +932,7 @@ class EasyCGRAParser ( Parser ):
             self.state = 135
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==47:
+            while _la==49:
                 self.state = 131
                 self.match(EasyCGRAParser.COMMA)
                 self.state = 132
@@ -1032,12 +974,6 @@ class EasyCGRAParser ( Parser ):
             if hasattr( listener, "exitPredTag" ):
                 listener.exitPredTag(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitPredTag" ):
-                return visitor.visitPredTag(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
@@ -1049,17 +985,17 @@ class EasyCGRAParser ( Parser ):
             self.state = 141
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [50]:
+            if token in [52]:
                 self.enterOuterAlt(localctx, 1)
                 self.state = 138
                 self.match(EasyCGRAParser.AND_PRED)
                 pass
-            elif token in [51]:
+            elif token in [53]:
                 self.enterOuterAlt(localctx, 2)
                 self.state = 139
                 self.match(EasyCGRAParser.OR_PRED)
                 pass
-            elif token in [28, 44]:
+            elif token in [30, 46]:
                 self.enterOuterAlt(localctx, 3)
 
                 pass
@@ -1139,6 +1075,12 @@ class EasyCGRAParser ( Parser ):
         def FMAC(self):
             return self.getToken(EasyCGRAParser.FMAC, 0)
 
+        def MOV(self):
+            return self.getToken(EasyCGRAParser.MOV, 0)
+
+        def MAC_CONST_ADD(self):
+            return self.getToken(EasyCGRAParser.MAC_CONST_ADD, 0)
+
         def getRuleIndex(self):
             return EasyCGRAParser.RULE_opCode
 
@@ -1149,12 +1091,6 @@ class EasyCGRAParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitOpCode" ):
                 listener.exitOpCode(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitOpCode" ):
-                return visitor.visitOpCode(self)
-            else:
-                return visitor.visitChildren(self)
 
 
 
@@ -1168,7 +1104,7 @@ class EasyCGRAParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 143
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 1048574) != 0)):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 7340030) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)

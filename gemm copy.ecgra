@@ -1,0 +1,16 @@
+Entry =>
+{
+    MOV, [$0], IMM[0]// initialize
+    {
+        MAC, ![WEST], ![NORTH], [$0] -> [$0] 
+        MOV, ![NORTH] -> ![SOUTH] // route the input from above
+        ![WEST] -> ![EAST] // route the input from left
+    }
+    {
+        MAC, ![WEST], ![NORTH], [$0] -> [$0]
+        ![NORTH] -> ![SOUTH] // route the input from above
+        ![EAST] -> ![WEST] // route the input from left
+    }
+    MOV,  ![NORTH] -> ![SOUTH] // send the result of the PE above it
+    MOV, [$0] -> ![SOUTH] // send its own result
+}

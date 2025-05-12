@@ -17,11 +17,13 @@ class oprObj:
     
 class instObj:
     opCode = None
-    operands = []
+    srcOperands = []
+    dstOperands = []
 
 
 
 class RealEasyCGRAParserVisitor(EasyCGRAParserVisitor):
+    
     # override them
     def visitCompilationUnit(self, ctx):
         # VectorCGRA can only have one entry block
