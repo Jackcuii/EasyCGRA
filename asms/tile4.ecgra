@@ -1,7 +1,7 @@
 Entry =>
 {
     {
-        MUL_CONST_ADD, [WEST], IMM[114514], [NORTH] -> [SOUTH]
+        MUL_CONST_ADD , [WEST], IMM[114514], [NORTH] -> [SOUTH]
         [WEST] -> [EAST]
     }
 }

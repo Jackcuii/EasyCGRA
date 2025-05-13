@@ -1,8 +1,6 @@
-from parser import ScriptFactory
+from ScriptFactory import ScriptFactory
 
-class OPT_MUL_CONST_ADD_DUMMY:
-    def __str__(self):
-        return "OPT_MUL_CONST_ADD"
+
     
     
 class CgraPayloadTypeDummy:
@@ -21,7 +19,7 @@ class IntraCgraPktTypeDummy:
         self.payload = payload
         
     def __str__(self):
-        return f"IntraCgraPktType({self.first}, {self.second}, payload = {self.payload})"
+        return f"IntraCgraPktType({self.first}, {self.second},\n payload = {self.payload})"
 
 class CtrlTypeDummy:
     def __init__(self, op_code, second, fu_in_code, tile_in, fu_out):
@@ -32,7 +30,9 @@ class CtrlTypeDummy:
         self.fu_out = fu_out
         
     def __str__(self):
-        return f"CtrlType({self.op_code}, {self.second},\n fu_in_code = {self.fu_in_code},\n tile_in = {self.tile_in},\n fu_out = {self.fu_out})"
+        tile_in_str = f"[{', '.join(str(t) for t in self.tile_in)}]"
+        fu_out_str = f"[{', '.join(str(f) for f in self.fu_out)}]"
+        return f"CtrlType({self.op_code}, {self.second},\n {self.fu_in_code},\n {tile_in_str},\n {fu_out_str})"
 
 class TileInTypeDummy:
     def __init__(self, params):
@@ -55,6 +55,6 @@ class FuInCodeDummy:
 if __name__ == "__main__":
     print("Test the Basic Functionality of the ScriptFactory")
 
-    with open("./asms/tile4.ecgra",'r') as f:
-        pkts = ScriptFactory.make(f, CgraPayloadTypeDummy, IntraCgraPktTypeDummy, CtrlTypeDummy, TileInTypeDummy, FuOutTypeDummy, "CMD_CONFIG", FuInCodeDummy, 4, FromFuOrRouting = ScriptFactory.FromFu)
-        print(pkts)
+    pkts = ScriptFactory.make("./asms/tile4.ecgra", CtrlTypeDummy, IntraCgraPktTypeDummy, CgraPayloadTypeDummy, TileInTypeDummy, FuOutTypeDummy, "CMD_CONFIG", FuInCodeDummy(), 4, FromFuOrRouting = ScriptFactory.FromRouting)
+    for pkt in pkts:
+        print(pkt)

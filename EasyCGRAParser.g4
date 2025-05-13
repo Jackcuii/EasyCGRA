@@ -1,5 +1,6 @@
 parser grammar EasyCGRAParser;
 
+
 options {
     tokenVocab = EasyCGRALexer;
 }
@@ -29,14 +30,17 @@ inst
     ;
 
 label
-    : IDENTIFIER COLON
+    : labelID COLON
+    ;
+
+labelID
+    : IDENTIFIER
     ;
 
 
 normalInst
-    : opCode COMMA operandList RIGHT_ARROW operandList // normal instruction.
-    | operandList RIGHT_ARROW operandList // syntax sugar for mov.
-    | opCode COMMA operandList // no dst operand.
+    : opCode COMMA operandList (RIGHT_ARROW operandList)?  // normal instruction.
+    | operand RIGHT_ARROW operand // syntax sugar for mov. // no dst operand.
     ;
 
 // operandList is like  [],[],[],[]
@@ -53,7 +57,7 @@ operand
     | IMM LBRACK FLOAT_LITERAL RBRACK
     | predTag MEM LBRACK idList RBRACK
     | predTag MEM LBRACK HEX_LITERAL RBRACK // MEM
-    | label
+    | labelID
     ;
 
 idList
@@ -88,7 +92,7 @@ opCode
     | FDIV
     | FMAC
     | MOV
-    | MAC_CONST_ADD
+    | MUL_CONST_ADD
     ;
 
 

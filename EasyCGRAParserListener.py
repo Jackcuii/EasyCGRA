@@ -62,6 +62,15 @@ class EasyCGRAParserListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by EasyCGRAParser#labelID.
+    def enterLabelID(self, ctx:EasyCGRAParser.LabelIDContext):
+        pass
+
+    # Exit a parse tree produced by EasyCGRAParser#labelID.
+    def exitLabelID(self, ctx:EasyCGRAParser.LabelIDContext):
+        pass
+
+
     # Enter a parse tree produced by EasyCGRAParser#normalInst.
     def enterNormalInst(self, ctx:EasyCGRAParser.NormalInstContext):
         pass

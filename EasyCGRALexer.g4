@@ -23,7 +23,7 @@ FDIV     : 'FDIV';
 FMAC     : 'FMAC';
 BEQ      : 'BEQ'; // ..
 MOV     : 'MOV';
-MAC_CONST_ADD : 'MAC_CONST_ADD';
+MUL_CONST_ADD : 'MUL_CONST_ADD';
 // memory
 
 LOAD     : 'LOAD';
@@ -47,7 +47,7 @@ STORE    : 'STORE';
 ENTRY       : 'Entry';
 ENTRY_ARROW : '=>';
 RIGHT_ARROW : '->';
-N : '\n';
+
 IMM : 'IMM';
 MEM : 'MEM';
 

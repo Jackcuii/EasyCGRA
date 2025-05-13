@@ -10,54 +10,54 @@ else:
 
 def serializedATN():
     return [
-        4,1,57,146,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
-        6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,1,0,5,0,26,8,0,10,
-        0,12,0,29,9,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,2,1,2,1,2,1,
-        2,3,2,44,8,2,1,3,5,3,47,8,3,10,3,12,3,50,9,3,1,4,1,4,5,4,54,8,4,
-        10,4,12,4,57,9,4,1,4,1,4,1,4,3,4,62,8,4,1,5,1,5,1,5,1,6,1,6,1,6,
-        1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,3,6,81,8,6,1,7,1,7,1,
-        7,5,7,86,8,7,10,7,12,7,89,9,7,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,
-        8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,
-        8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,3,8,129,8,
-        8,1,9,1,9,1,9,5,9,134,8,9,10,9,12,9,137,9,9,1,10,1,10,1,10,3,10,
-        142,8,10,1,11,1,11,1,11,0,0,12,0,2,4,6,8,10,12,14,16,18,20,22,0,
-        1,2,0,1,19,21,22,153,0,27,1,0,0,0,2,32,1,0,0,0,4,43,1,0,0,0,6,48,
-        1,0,0,0,8,61,1,0,0,0,10,63,1,0,0,0,12,80,1,0,0,0,14,82,1,0,0,0,16,
-        128,1,0,0,0,18,130,1,0,0,0,20,141,1,0,0,0,22,143,1,0,0,0,24,26,3,
-        2,1,0,25,24,1,0,0,0,26,29,1,0,0,0,27,25,1,0,0,0,27,28,1,0,0,0,28,
-        30,1,0,0,0,29,27,1,0,0,0,30,31,5,0,0,1,31,1,1,0,0,0,32,33,3,4,2,
-        0,33,34,5,44,0,0,34,35,3,6,3,0,35,36,5,45,0,0,36,3,1,0,0,0,37,38,
-        5,25,0,0,38,44,5,26,0,0,39,40,5,25,0,0,40,41,3,14,7,0,41,42,5,26,
-        0,0,42,44,1,0,0,0,43,37,1,0,0,0,43,39,1,0,0,0,44,5,1,0,0,0,45,47,
-        3,8,4,0,46,45,1,0,0,0,47,50,1,0,0,0,48,46,1,0,0,0,48,49,1,0,0,0,
-        49,7,1,0,0,0,50,48,1,0,0,0,51,55,5,44,0,0,52,54,3,12,6,0,53,52,1,
-        0,0,0,54,57,1,0,0,0,55,53,1,0,0,0,55,56,1,0,0,0,56,58,1,0,0,0,57,
-        55,1,0,0,0,58,62,5,45,0,0,59,62,3,12,6,0,60,62,3,10,5,0,61,51,1,
-        0,0,0,61,59,1,0,0,0,61,60,1,0,0,0,62,9,1,0,0,0,63,64,5,57,0,0,64,
-        65,5,51,0,0,65,11,1,0,0,0,66,67,3,22,11,0,67,68,5,49,0,0,68,69,3,
-        14,7,0,69,70,5,27,0,0,70,71,3,14,7,0,71,81,1,0,0,0,72,73,3,14,7,
-        0,73,74,5,27,0,0,74,75,3,14,7,0,75,81,1,0,0,0,76,77,3,22,11,0,77,
-        78,5,49,0,0,78,79,3,14,7,0,79,81,1,0,0,0,80,66,1,0,0,0,80,72,1,0,
-        0,0,80,76,1,0,0,0,81,13,1,0,0,0,82,87,3,16,8,0,83,84,5,49,0,0,84,
-        86,3,16,8,0,85,83,1,0,0,0,86,89,1,0,0,0,87,85,1,0,0,0,87,88,1,0,
-        0,0,88,15,1,0,0,0,89,87,1,0,0,0,90,91,3,20,10,0,91,92,5,46,0,0,92,
-        93,3,18,9,0,93,94,5,47,0,0,94,129,1,0,0,0,95,96,5,29,0,0,96,97,5,
-        46,0,0,97,98,5,31,0,0,98,129,5,47,0,0,99,100,5,29,0,0,100,101,5,
-        46,0,0,101,102,5,33,0,0,102,129,5,47,0,0,103,104,5,29,0,0,104,105,
-        5,46,0,0,105,106,5,32,0,0,106,129,5,47,0,0,107,108,5,29,0,0,108,
-        109,5,46,0,0,109,110,5,34,0,0,110,129,5,47,0,0,111,112,5,29,0,0,
-        112,113,5,46,0,0,113,114,5,35,0,0,114,129,5,47,0,0,115,116,3,20,
-        10,0,116,117,5,30,0,0,117,118,5,46,0,0,118,119,3,18,9,0,119,120,
-        5,47,0,0,120,129,1,0,0,0,121,122,3,20,10,0,122,123,5,30,0,0,123,
-        124,5,46,0,0,124,125,5,32,0,0,125,126,5,47,0,0,126,129,1,0,0,0,127,
-        129,3,10,5,0,128,90,1,0,0,0,128,95,1,0,0,0,128,99,1,0,0,0,128,103,
-        1,0,0,0,128,107,1,0,0,0,128,111,1,0,0,0,128,115,1,0,0,0,128,121,
-        1,0,0,0,128,127,1,0,0,0,129,17,1,0,0,0,130,135,5,57,0,0,131,132,
-        5,49,0,0,132,134,5,57,0,0,133,131,1,0,0,0,134,137,1,0,0,0,135,133,
-        1,0,0,0,135,136,1,0,0,0,136,19,1,0,0,0,137,135,1,0,0,0,138,142,5,
-        52,0,0,139,142,5,53,0,0,140,142,1,0,0,0,141,138,1,0,0,0,141,139,
-        1,0,0,0,141,140,1,0,0,0,142,21,1,0,0,0,143,144,7,0,0,0,144,23,1,
-        0,0,0,10,27,43,48,55,61,80,87,128,135,141
+        4,1,56,147,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,1,0,5,0,
+        28,8,0,10,0,12,0,31,9,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,2,
+        1,2,1,2,1,2,3,2,46,8,2,1,3,5,3,49,8,3,10,3,12,3,52,9,3,1,4,1,4,5,
+        4,56,8,4,10,4,12,4,59,9,4,1,4,1,4,1,4,3,4,64,8,4,1,5,1,5,1,5,1,6,
+        1,6,1,7,1,7,1,7,1,7,1,7,3,7,76,8,7,1,7,1,7,1,7,1,7,3,7,82,8,7,1,
+        8,1,8,1,8,5,8,87,8,8,10,8,12,8,90,9,8,1,9,1,9,1,9,1,9,1,9,1,9,1,
+        9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,
+        9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,3,
+        9,130,8,9,1,10,1,10,1,10,5,10,135,8,10,10,10,12,10,138,9,10,1,11,
+        1,11,1,11,3,11,143,8,11,1,12,1,12,1,12,0,0,13,0,2,4,6,8,10,12,14,
+        16,18,20,22,24,0,1,2,0,1,19,21,22,153,0,29,1,0,0,0,2,34,1,0,0,0,
+        4,45,1,0,0,0,6,50,1,0,0,0,8,63,1,0,0,0,10,65,1,0,0,0,12,68,1,0,0,
+        0,14,81,1,0,0,0,16,83,1,0,0,0,18,129,1,0,0,0,20,131,1,0,0,0,22,142,
+        1,0,0,0,24,144,1,0,0,0,26,28,3,2,1,0,27,26,1,0,0,0,28,31,1,0,0,0,
+        29,27,1,0,0,0,29,30,1,0,0,0,30,32,1,0,0,0,31,29,1,0,0,0,32,33,5,
+        0,0,1,33,1,1,0,0,0,34,35,3,4,2,0,35,36,5,43,0,0,36,37,3,6,3,0,37,
+        38,5,44,0,0,38,3,1,0,0,0,39,40,5,25,0,0,40,46,5,26,0,0,41,42,5,25,
+        0,0,42,43,3,16,8,0,43,44,5,26,0,0,44,46,1,0,0,0,45,39,1,0,0,0,45,
+        41,1,0,0,0,46,5,1,0,0,0,47,49,3,8,4,0,48,47,1,0,0,0,49,52,1,0,0,
+        0,50,48,1,0,0,0,50,51,1,0,0,0,51,7,1,0,0,0,52,50,1,0,0,0,53,57,5,
+        43,0,0,54,56,3,14,7,0,55,54,1,0,0,0,56,59,1,0,0,0,57,55,1,0,0,0,
+        57,58,1,0,0,0,58,60,1,0,0,0,59,57,1,0,0,0,60,64,5,44,0,0,61,64,3,
+        14,7,0,62,64,3,10,5,0,63,53,1,0,0,0,63,61,1,0,0,0,63,62,1,0,0,0,
+        64,9,1,0,0,0,65,66,3,12,6,0,66,67,5,50,0,0,67,11,1,0,0,0,68,69,5,
+        56,0,0,69,13,1,0,0,0,70,71,3,24,12,0,71,72,5,48,0,0,72,75,3,16,8,
+        0,73,74,5,27,0,0,74,76,3,16,8,0,75,73,1,0,0,0,75,76,1,0,0,0,76,82,
+        1,0,0,0,77,78,3,18,9,0,78,79,5,27,0,0,79,80,3,18,9,0,80,82,1,0,0,
+        0,81,70,1,0,0,0,81,77,1,0,0,0,82,15,1,0,0,0,83,88,3,18,9,0,84,85,
+        5,48,0,0,85,87,3,18,9,0,86,84,1,0,0,0,87,90,1,0,0,0,88,86,1,0,0,
+        0,88,89,1,0,0,0,89,17,1,0,0,0,90,88,1,0,0,0,91,92,3,22,11,0,92,93,
+        5,45,0,0,93,94,3,20,10,0,94,95,5,46,0,0,95,130,1,0,0,0,96,97,5,28,
+        0,0,97,98,5,45,0,0,98,99,5,30,0,0,99,130,5,46,0,0,100,101,5,28,0,
+        0,101,102,5,45,0,0,102,103,5,32,0,0,103,130,5,46,0,0,104,105,5,28,
+        0,0,105,106,5,45,0,0,106,107,5,31,0,0,107,130,5,46,0,0,108,109,5,
+        28,0,0,109,110,5,45,0,0,110,111,5,33,0,0,111,130,5,46,0,0,112,113,
+        5,28,0,0,113,114,5,45,0,0,114,115,5,34,0,0,115,130,5,46,0,0,116,
+        117,3,22,11,0,117,118,5,29,0,0,118,119,5,45,0,0,119,120,3,20,10,
+        0,120,121,5,46,0,0,121,130,1,0,0,0,122,123,3,22,11,0,123,124,5,29,
+        0,0,124,125,5,45,0,0,125,126,5,31,0,0,126,127,5,46,0,0,127,130,1,
+        0,0,0,128,130,3,12,6,0,129,91,1,0,0,0,129,96,1,0,0,0,129,100,1,0,
+        0,0,129,104,1,0,0,0,129,108,1,0,0,0,129,112,1,0,0,0,129,116,1,0,
+        0,0,129,122,1,0,0,0,129,128,1,0,0,0,130,19,1,0,0,0,131,136,5,56,
+        0,0,132,133,5,48,0,0,133,135,5,56,0,0,134,132,1,0,0,0,135,138,1,
+        0,0,0,136,134,1,0,0,0,136,137,1,0,0,0,137,21,1,0,0,0,138,136,1,0,
+        0,0,139,143,5,51,0,0,140,143,5,52,0,0,141,143,1,0,0,0,142,139,1,
+        0,0,0,142,140,1,0,0,0,142,141,1,0,0,0,143,23,1,0,0,0,144,145,7,0,
+        0,0,145,25,1,0,0,0,11,29,45,50,57,63,75,81,88,129,136,142
     ]
 
 class EasyCGRAParser ( Parser ):
@@ -73,19 +73,19 @@ class EasyCGRAParser ( Parser ):
     literalNames = [ "<INVALID>", "'ADD'", "'ADDI'", "'SUB'", "'SUBI'", 
                      "'MUL'", "'DIV'", "'MAC'", "'INC'", "'LLS'", "'LRS'", 
                      "'OR'", "'AND'", "'XOR'", "'NOT'", "'FADD'", "'FSUB'", 
-                     "'FMUL'", "'FDIV'", "'FMAC'", "'BEQ'", "'MOV'", "'MAC_CONST_ADD'", 
-                     "'LOAD'", "'STORE'", "'Entry'", "'=>'", "'->'", "'\\n'", 
-                     "'IMM'", "'MEM'", "<INVALID>", "<INVALID>", "<INVALID>", 
+                     "'FMUL'", "'FDIV'", "'FMAC'", "'BEQ'", "'MOV'", "'MUL_CONST_ADD'", 
+                     "'LOAD'", "'STORE'", "'Entry'", "'=>'", "'->'", "'IMM'", 
+                     "'MEM'", "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                      "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                     "<INVALID>", "<INVALID>", "<INVALID>", "'null'", "'('", 
-                     "')'", "'{'", "'}'", "'['", "']'", "';'", "','", "'.'", 
-                     "':'", "'!'", "'^'" ]
+                     "<INVALID>", "<INVALID>", "'null'", "'('", "')'", "'{'", 
+                     "'}'", "'['", "']'", "';'", "','", "'.'", "':'", "'!'", 
+                     "'^'" ]
 
     symbolicNames = [ "<INVALID>", "ADD", "ADDI", "SUB", "SUBI", "MUL", 
                       "DIV", "MAC", "INC", "LLS", "LRS", "OR", "AND", "XOR", 
                       "NOT", "FADD", "FSUB", "FMUL", "FDIV", "FMAC", "BEQ", 
-                      "MOV", "MAC_CONST_ADD", "LOAD", "STORE", "ENTRY", 
-                      "ENTRY_ARROW", "RIGHT_ARROW", "N", "IMM", "MEM", "DECIMAL_LITERAL", 
+                      "MOV", "MUL_CONST_ADD", "LOAD", "STORE", "ENTRY", 
+                      "ENTRY_ARROW", "RIGHT_ARROW", "IMM", "MEM", "DECIMAL_LITERAL", 
                       "HEX_LITERAL", "OCT_LITERAL", "BINARY_LITERAL", "FLOAT_LITERAL", 
                       "HEX_FLOAT_LITERAL", "BOOL_LITERAL", "CHAR_LITERAL", 
                       "STRING_LITERAL", "TEXT_BLOCK", "NULL_LITERAL", "LPAREN", 
@@ -99,16 +99,17 @@ class EasyCGRAParser ( Parser ):
     RULE_instList = 3
     RULE_inst = 4
     RULE_label = 5
-    RULE_normalInst = 6
-    RULE_operandList = 7
-    RULE_operand = 8
-    RULE_idList = 9
-    RULE_predTag = 10
-    RULE_opCode = 11
+    RULE_labelID = 6
+    RULE_normalInst = 7
+    RULE_operandList = 8
+    RULE_operand = 9
+    RULE_idList = 10
+    RULE_predTag = 11
+    RULE_opCode = 12
 
     ruleNames =  [ "compilationUnit", "entryBlock", "entryHead", "instList", 
-                   "inst", "label", "normalInst", "operandList", "operand", 
-                   "idList", "predTag", "opCode" ]
+                   "inst", "label", "labelID", "normalInst", "operandList", 
+                   "operand", "idList", "predTag", "opCode" ]
 
     EOF = Token.EOF
     ADD=1
@@ -132,42 +133,41 @@ class EasyCGRAParser ( Parser ):
     FMAC=19
     BEQ=20
     MOV=21
-    MAC_CONST_ADD=22
+    MUL_CONST_ADD=22
     LOAD=23
     STORE=24
     ENTRY=25
     ENTRY_ARROW=26
     RIGHT_ARROW=27
-    N=28
-    IMM=29
-    MEM=30
-    DECIMAL_LITERAL=31
-    HEX_LITERAL=32
-    OCT_LITERAL=33
-    BINARY_LITERAL=34
-    FLOAT_LITERAL=35
-    HEX_FLOAT_LITERAL=36
-    BOOL_LITERAL=37
-    CHAR_LITERAL=38
-    STRING_LITERAL=39
-    TEXT_BLOCK=40
-    NULL_LITERAL=41
-    LPAREN=42
-    RPAREN=43
-    LBRACE=44
-    RBRACE=45
-    LBRACK=46
-    RBRACK=47
-    SEMI=48
-    COMMA=49
-    DOT=50
-    COLON=51
-    AND_PRED=52
-    OR_PRED=53
-    WS=54
-    COMMENT=55
-    LINE_COMMENT=56
-    IDENTIFIER=57
+    IMM=28
+    MEM=29
+    DECIMAL_LITERAL=30
+    HEX_LITERAL=31
+    OCT_LITERAL=32
+    BINARY_LITERAL=33
+    FLOAT_LITERAL=34
+    HEX_FLOAT_LITERAL=35
+    BOOL_LITERAL=36
+    CHAR_LITERAL=37
+    STRING_LITERAL=38
+    TEXT_BLOCK=39
+    NULL_LITERAL=40
+    LPAREN=41
+    RPAREN=42
+    LBRACE=43
+    RBRACE=44
+    LBRACK=45
+    RBRACK=46
+    SEMI=47
+    COMMA=48
+    DOT=49
+    COLON=50
+    AND_PRED=51
+    OR_PRED=52
+    WS=53
+    COMMENT=54
+    LINE_COMMENT=55
+    IDENTIFIER=56
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -216,17 +216,17 @@ class EasyCGRAParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 27
+            self.state = 29
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==25:
-                self.state = 24
+                self.state = 26
                 self.entryBlock()
-                self.state = 29
+                self.state = 31
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 30
+            self.state = 32
             self.match(EasyCGRAParser.EOF)
         except RecognitionException as re:
             localctx.exception = re
@@ -278,13 +278,13 @@ class EasyCGRAParser ( Parser ):
         self.enterRule(localctx, 2, self.RULE_entryBlock)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 32
-            self.entryHead()
-            self.state = 33
-            self.match(EasyCGRAParser.LBRACE)
             self.state = 34
-            self.instList()
+            self.entryHead()
             self.state = 35
+            self.match(EasyCGRAParser.LBRACE)
+            self.state = 36
+            self.instList()
+            self.state = 37
             self.match(EasyCGRAParser.RBRACE)
         except RecognitionException as re:
             localctx.exception = re
@@ -331,24 +331,24 @@ class EasyCGRAParser ( Parser ):
         localctx = EasyCGRAParser.EntryHeadContext(self, self._ctx, self.state)
         self.enterRule(localctx, 4, self.RULE_entryHead)
         try:
-            self.state = 43
+            self.state = 45
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,1,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 37
+                self.state = 39
                 self.match(EasyCGRAParser.ENTRY)
-                self.state = 38
+                self.state = 40
                 self.match(EasyCGRAParser.ENTRY_ARROW)
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 39
-                self.match(EasyCGRAParser.ENTRY)
-                self.state = 40
-                self.operandList()
                 self.state = 41
+                self.match(EasyCGRAParser.ENTRY)
+                self.state = 42
+                self.operandList()
+                self.state = 43
                 self.match(EasyCGRAParser.ENTRY_ARROW)
                 pass
 
@@ -397,13 +397,13 @@ class EasyCGRAParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 48
+            self.state = 50
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 157713949506142206) != 0):
-                self.state = 45
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 78856974756741118) != 0):
+                self.state = 47
                 self.inst()
-                self.state = 50
+                self.state = 52
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -460,36 +460,36 @@ class EasyCGRAParser ( Parser ):
         self.enterRule(localctx, 8, self.RULE_inst)
         self._la = 0 # Token type
         try:
-            self.state = 61
+            self.state = 63
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,4,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 51
+                self.state = 53
                 self.match(EasyCGRAParser.LBRACE)
-                self.state = 55
+                self.state = 57
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while (((_la) & ~0x3f) == 0 and ((1 << _la) & 157696357320097790) != 0):
-                    self.state = 52
+                while (((_la) & ~0x3f) == 0 and ((1 << _la) & 78848178663718910) != 0):
+                    self.state = 54
                     self.normalInst()
-                    self.state = 57
+                    self.state = 59
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
-                self.state = 58
+                self.state = 60
                 self.match(EasyCGRAParser.RBRACE)
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 59
+                self.state = 61
                 self.normalInst()
                 pass
 
             elif la_ == 3:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 60
+                self.state = 62
                 self.label()
                 pass
 
@@ -510,8 +510,9 @@ class EasyCGRAParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def IDENTIFIER(self):
-            return self.getToken(EasyCGRAParser.IDENTIFIER, 0)
+        def labelID(self):
+            return self.getTypedRuleContext(EasyCGRAParser.LabelIDContext,0)
+
 
         def COLON(self):
             return self.getToken(EasyCGRAParser.COLON, 0)
@@ -536,10 +537,51 @@ class EasyCGRAParser ( Parser ):
         self.enterRule(localctx, 10, self.RULE_label)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 63
-            self.match(EasyCGRAParser.IDENTIFIER)
-            self.state = 64
+            self.state = 65
+            self.labelID()
+            self.state = 66
             self.match(EasyCGRAParser.COLON)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class LabelIDContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def IDENTIFIER(self):
+            return self.getToken(EasyCGRAParser.IDENTIFIER, 0)
+
+        def getRuleIndex(self):
+            return EasyCGRAParser.RULE_labelID
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterLabelID" ):
+                listener.enterLabelID(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitLabelID" ):
+                listener.exitLabelID(self)
+
+
+
+
+    def labelID(self):
+
+        localctx = EasyCGRAParser.LabelIDContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 12, self.RULE_labelID)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 68
+            self.match(EasyCGRAParser.IDENTIFIER)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -573,6 +615,13 @@ class EasyCGRAParser ( Parser ):
         def RIGHT_ARROW(self):
             return self.getToken(EasyCGRAParser.RIGHT_ARROW, 0)
 
+        def operand(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(EasyCGRAParser.OperandContext)
+            else:
+                return self.getTypedRuleContext(EasyCGRAParser.OperandContext,i)
+
+
         def getRuleIndex(self):
             return EasyCGRAParser.RULE_normalInst
 
@@ -590,45 +639,42 @@ class EasyCGRAParser ( Parser ):
     def normalInst(self):
 
         localctx = EasyCGRAParser.NormalInstContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 12, self.RULE_normalInst)
+        self.enterRule(localctx, 14, self.RULE_normalInst)
+        self._la = 0 # Token type
         try:
-            self.state = 80
+            self.state = 81
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,5,self._ctx)
-            if la_ == 1:
+            token = self._input.LA(1)
+            if token in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 66
-                self.opCode()
-                self.state = 67
-                self.match(EasyCGRAParser.COMMA)
-                self.state = 68
-                self.operandList()
-                self.state = 69
-                self.match(EasyCGRAParser.RIGHT_ARROW)
                 self.state = 70
-                self.operandList()
-                pass
-
-            elif la_ == 2:
-                self.enterOuterAlt(localctx, 2)
+                self.opCode()
+                self.state = 71
+                self.match(EasyCGRAParser.COMMA)
                 self.state = 72
                 self.operandList()
-                self.state = 73
-                self.match(EasyCGRAParser.RIGHT_ARROW)
-                self.state = 74
-                self.operandList()
-                pass
+                self.state = 75
+                self._errHandler.sync(self)
+                _la = self._input.LA(1)
+                if _la==27:
+                    self.state = 73
+                    self.match(EasyCGRAParser.RIGHT_ARROW)
+                    self.state = 74
+                    self.operandList()
 
-            elif la_ == 3:
-                self.enterOuterAlt(localctx, 3)
-                self.state = 76
-                self.opCode()
+
+                pass
+            elif token in [28, 29, 45, 51, 52, 56]:
+                self.enterOuterAlt(localctx, 2)
                 self.state = 77
-                self.match(EasyCGRAParser.COMMA)
+                self.operand()
                 self.state = 78
-                self.operandList()
+                self.match(EasyCGRAParser.RIGHT_ARROW)
+                self.state = 79
+                self.operand()
                 pass
-
+            else:
+                raise NoViableAltException(self)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -676,21 +722,21 @@ class EasyCGRAParser ( Parser ):
     def operandList(self):
 
         localctx = EasyCGRAParser.OperandListContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 14, self.RULE_operandList)
+        self.enterRule(localctx, 16, self.RULE_operandList)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 82
+            self.state = 83
             self.operand()
-            self.state = 87
+            self.state = 88
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==49:
-                self.state = 83
-                self.match(EasyCGRAParser.COMMA)
+            while _la==48:
                 self.state = 84
+                self.match(EasyCGRAParser.COMMA)
+                self.state = 85
                 self.operand()
-                self.state = 89
+                self.state = 90
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -745,8 +791,8 @@ class EasyCGRAParser ( Parser ):
         def MEM(self):
             return self.getToken(EasyCGRAParser.MEM, 0)
 
-        def label(self):
-            return self.getTypedRuleContext(EasyCGRAParser.LabelContext,0)
+        def labelID(self):
+            return self.getTypedRuleContext(EasyCGRAParser.LabelIDContext,0)
 
 
         def getRuleIndex(self):
@@ -766,115 +812,115 @@ class EasyCGRAParser ( Parser ):
     def operand(self):
 
         localctx = EasyCGRAParser.OperandContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_operand)
+        self.enterRule(localctx, 18, self.RULE_operand)
         try:
-            self.state = 128
+            self.state = 129
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,7,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,8,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 90
-                self.predTag()
                 self.state = 91
-                self.match(EasyCGRAParser.LBRACK)
+                self.predTag()
                 self.state = 92
-                self.idList()
+                self.match(EasyCGRAParser.LBRACK)
                 self.state = 93
+                self.idList()
+                self.state = 94
                 self.match(EasyCGRAParser.RBRACK)
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 95
-                self.match(EasyCGRAParser.IMM)
                 self.state = 96
-                self.match(EasyCGRAParser.LBRACK)
+                self.match(EasyCGRAParser.IMM)
                 self.state = 97
-                self.match(EasyCGRAParser.DECIMAL_LITERAL)
+                self.match(EasyCGRAParser.LBRACK)
                 self.state = 98
+                self.match(EasyCGRAParser.DECIMAL_LITERAL)
+                self.state = 99
                 self.match(EasyCGRAParser.RBRACK)
                 pass
 
             elif la_ == 3:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 99
-                self.match(EasyCGRAParser.IMM)
                 self.state = 100
-                self.match(EasyCGRAParser.LBRACK)
+                self.match(EasyCGRAParser.IMM)
                 self.state = 101
-                self.match(EasyCGRAParser.OCT_LITERAL)
+                self.match(EasyCGRAParser.LBRACK)
                 self.state = 102
+                self.match(EasyCGRAParser.OCT_LITERAL)
+                self.state = 103
                 self.match(EasyCGRAParser.RBRACK)
                 pass
 
             elif la_ == 4:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 103
-                self.match(EasyCGRAParser.IMM)
                 self.state = 104
-                self.match(EasyCGRAParser.LBRACK)
+                self.match(EasyCGRAParser.IMM)
                 self.state = 105
-                self.match(EasyCGRAParser.HEX_LITERAL)
+                self.match(EasyCGRAParser.LBRACK)
                 self.state = 106
+                self.match(EasyCGRAParser.HEX_LITERAL)
+                self.state = 107
                 self.match(EasyCGRAParser.RBRACK)
                 pass
 
             elif la_ == 5:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 107
-                self.match(EasyCGRAParser.IMM)
                 self.state = 108
-                self.match(EasyCGRAParser.LBRACK)
+                self.match(EasyCGRAParser.IMM)
                 self.state = 109
-                self.match(EasyCGRAParser.BINARY_LITERAL)
+                self.match(EasyCGRAParser.LBRACK)
                 self.state = 110
+                self.match(EasyCGRAParser.BINARY_LITERAL)
+                self.state = 111
                 self.match(EasyCGRAParser.RBRACK)
                 pass
 
             elif la_ == 6:
                 self.enterOuterAlt(localctx, 6)
-                self.state = 111
-                self.match(EasyCGRAParser.IMM)
                 self.state = 112
-                self.match(EasyCGRAParser.LBRACK)
+                self.match(EasyCGRAParser.IMM)
                 self.state = 113
-                self.match(EasyCGRAParser.FLOAT_LITERAL)
+                self.match(EasyCGRAParser.LBRACK)
                 self.state = 114
+                self.match(EasyCGRAParser.FLOAT_LITERAL)
+                self.state = 115
                 self.match(EasyCGRAParser.RBRACK)
                 pass
 
             elif la_ == 7:
                 self.enterOuterAlt(localctx, 7)
-                self.state = 115
-                self.predTag()
                 self.state = 116
-                self.match(EasyCGRAParser.MEM)
+                self.predTag()
                 self.state = 117
-                self.match(EasyCGRAParser.LBRACK)
+                self.match(EasyCGRAParser.MEM)
                 self.state = 118
-                self.idList()
+                self.match(EasyCGRAParser.LBRACK)
                 self.state = 119
+                self.idList()
+                self.state = 120
                 self.match(EasyCGRAParser.RBRACK)
                 pass
 
             elif la_ == 8:
                 self.enterOuterAlt(localctx, 8)
-                self.state = 121
-                self.predTag()
                 self.state = 122
-                self.match(EasyCGRAParser.MEM)
+                self.predTag()
                 self.state = 123
-                self.match(EasyCGRAParser.LBRACK)
+                self.match(EasyCGRAParser.MEM)
                 self.state = 124
-                self.match(EasyCGRAParser.HEX_LITERAL)
+                self.match(EasyCGRAParser.LBRACK)
                 self.state = 125
+                self.match(EasyCGRAParser.HEX_LITERAL)
+                self.state = 126
                 self.match(EasyCGRAParser.RBRACK)
                 pass
 
             elif la_ == 9:
                 self.enterOuterAlt(localctx, 9)
-                self.state = 127
-                self.label()
+                self.state = 128
+                self.labelID()
                 pass
 
 
@@ -923,21 +969,21 @@ class EasyCGRAParser ( Parser ):
     def idList(self):
 
         localctx = EasyCGRAParser.IdListContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 18, self.RULE_idList)
+        self.enterRule(localctx, 20, self.RULE_idList)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 130
+            self.state = 131
             self.match(EasyCGRAParser.IDENTIFIER)
-            self.state = 135
+            self.state = 136
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==49:
-                self.state = 131
-                self.match(EasyCGRAParser.COMMA)
+            while _la==48:
                 self.state = 132
+                self.match(EasyCGRAParser.COMMA)
+                self.state = 133
                 self.match(EasyCGRAParser.IDENTIFIER)
-                self.state = 137
+                self.state = 138
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -980,22 +1026,22 @@ class EasyCGRAParser ( Parser ):
     def predTag(self):
 
         localctx = EasyCGRAParser.PredTagContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 20, self.RULE_predTag)
+        self.enterRule(localctx, 22, self.RULE_predTag)
         try:
-            self.state = 141
+            self.state = 142
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [52]:
+            if token in [51]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 138
+                self.state = 139
                 self.match(EasyCGRAParser.AND_PRED)
                 pass
-            elif token in [53]:
+            elif token in [52]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 139
+                self.state = 140
                 self.match(EasyCGRAParser.OR_PRED)
                 pass
-            elif token in [30, 46]:
+            elif token in [29, 45]:
                 self.enterOuterAlt(localctx, 3)
 
                 pass
@@ -1078,8 +1124,8 @@ class EasyCGRAParser ( Parser ):
         def MOV(self):
             return self.getToken(EasyCGRAParser.MOV, 0)
 
-        def MAC_CONST_ADD(self):
-            return self.getToken(EasyCGRAParser.MAC_CONST_ADD, 0)
+        def MUL_CONST_ADD(self):
+            return self.getToken(EasyCGRAParser.MUL_CONST_ADD, 0)
 
         def getRuleIndex(self):
             return EasyCGRAParser.RULE_opCode
@@ -1098,11 +1144,11 @@ class EasyCGRAParser ( Parser ):
     def opCode(self):
 
         localctx = EasyCGRAParser.OpCodeContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 22, self.RULE_opCode)
+        self.enterRule(localctx, 24, self.RULE_opCode)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 143
+            self.state = 144
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 7340030) != 0)):
                 self._errHandler.recoverInline(self)
